@@ -77,18 +77,60 @@
       },
       "routes": [
         {
-          "name": "RouteApp",
-          "pattern": "RouteApp",
-          "target": ["TargetApp"]
+          "name": "App",
+          "pattern": "App",
+          "target": ["App"]
+        },
+        {
+          "name": "ButtonPage",
+          "pattern": "ButtonPage",
+          "target": ["ButtonPage"]
+        },
+        {
+          "name": "Page1",
+          "pattern": "page1",
+          "target": ["page1"]
+        },
+        {
+          "name": "Page2",
+          "pattern": "page2",
+          "target": ["page2"]
+        },
+        {
+          "name": "Page3",
+          "pattern": "page3",
+          "target": ["page3"]
+        },
+        {
+          "name": "Page4",
+          "pattern": "page4",
+          "target": ["page4"]
         }
       ],
       "targets": {
-        "TargetApp": {
-          "viewType": "XML",
-          "transition": "slide",
-          "clearControlAggregation": false,
+        "App": {
           "viewId": "App",
           "viewName": "App"
+        },
+        "ButtonPage": {
+          "viewId": "ButtonPage",
+          "viewName": "ButtonPage"
+        },
+        "page1": {
+          "viewId": "Page1",
+          "viewName": "Page1"
+        },
+        "page2": {
+          "viewId": "Page2",
+          "viewName": "Page2"
+        },
+        "page3": {
+          "viewId": "Page3",
+          "viewName": "Page3"
+        },
+        "page4": {
+          "viewId": "Page4",
+          "viewName": "Page4"
         }
       }
     }

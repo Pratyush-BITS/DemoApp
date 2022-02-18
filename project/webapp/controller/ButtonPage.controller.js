@@ -8,15 +8,18 @@ sap.ui.define([
 	function (Controller, MessageToast) {
 		"use strict";
 
-		return Controller.extend("com.sap.demo.project.controller.App", {
+		return Controller.extend("com.sap.demo.project.controller.ButtonPage", {
 			onInit: function () {
-
+				MessageToast.show("hiii");
 			},
-			
+
 			onClick: function (oEvent) {
 				MessageToast.show("Navigating");
+				var viewNo = oEvent.getSource().getProperty("text")
 				var oRouter = this.getOwnerComponent().getRouter();
-				oRouter.navTo("ButtonPage");
+				oRouter.navTo(viewNo);
 			}
-		});
+		
 	});
+	
+});

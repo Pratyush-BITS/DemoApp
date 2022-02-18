@@ -1,0 +1,20 @@
+<mvc:View
+    controllerName="com.sap.demo.project.controller.Page2"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+	<Shell id="shell">
+		<App id="page2">
+			<pages>
+				<Page id="pages2" title="{i18n>title}">
+					<content >
+
+						<Text text="viewNo 2" />
+
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

@@ -1,0 +1,23 @@
+<mvc:View
+    controllerName="com.sap.demo.project.controller.ButtonPage"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+	<Shell id="shell">
+		<App id="appbutton">
+			<pages>
+				<Page id="pagebutton" title="{i18n>title}">
+					<content >
+
+						<Button id="button1" text="Page1" press=".onClick"></Button>
+                        <Button id="button2" text="Page2" press=".onClick"></Button>
+                        <Button id="button3" text="Page3" press=".onClick"></Button>
+                        <Button id="button4" text="Page4" press=".onClick"></Button>
+
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
