@@ -13,9 +13,8 @@ sap.ui.define([
 			onInit: function () {
 
 			},
-			onClick: function (oEvent) {
-				var oRouter = this.getOwnerComponent().getRouter();
-				oRouter.navTo("buttonPage");
+			onClick: function() {
+				MessageToast.show("hello");
 			}
 		});
 	});
